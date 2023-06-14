@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    background-color: darkgray;
+}
+
+header {
+    margin-top: 15%;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    padding: 7px;
+    background-color: darkslategray;
+    color: aliceblue;
+}
+
+input {
+    padding: 7px;
+    background-color: aliceblue;
+}
+
+
+ol {
+    margin: 20px;
+    font-size: 18px;
+    flex-wrap: wrap; 
+    text-align: center;
+}
+
+ol li {
+    margin-top: 8px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.item-risco {
+    text-decoration: line-through;
+}
